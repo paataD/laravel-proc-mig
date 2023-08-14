@@ -1,0 +1,35 @@
+{
+  "name": "at-lab/laravel-proc-mig",
+  "description": "Laravel procedure migration",
+  "license": "MIT",
+  "type": "package",
+  "keywords": [
+    "laravel",
+    "migration",
+    "procedure",
+    "data",
+    "mysql",
+    "sql",
+    "postgresql"
+  ],
+  "authors": [
+    {
+      "name": "Paata",
+      "email": "info@at-lab.ru",
+      "homepage": "https://at-lab.ru",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AtLab\\ProcMig\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AtLab\\ProcMig\\ProcMigServiceProvider"
+      ]
+    }
+  }
+}
